@@ -3,4 +3,4 @@ WORKDIR /app1
 COPY package*.json ./
 COPY . .
 EXPOSE 3015
-CMD ["node" "app.js"]
+CMD ["node", "app.js"]

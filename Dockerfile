@@ -3,5 +3,5 @@ WORKDIR /app1
 COPY ./package.json .
 RUN npm install 
 COPY . .
-EXPOSE 3000
-CMD ["node" "server.js"]
+EXPOSE 3015
+CMD ["node" "app.js"]
